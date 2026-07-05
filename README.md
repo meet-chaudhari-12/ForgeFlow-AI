@@ -147,5 +147,4 @@ ForgeFlow AI generates
 - Vimal Solanki
 - Aryan Vaghela
 
-Computer Engineering Student
 Built with ❤️ using LangGraph + Google Gemini.
