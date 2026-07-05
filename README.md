@@ -143,9 +143,9 @@ ForgeFlow AI generates
 
 # 👨‍💻 Author
 
-Meet Chaudhari
-Vimal Solanki
-Aryan Vaghela
+*Meet Chaudhari
+*Vimal Solanki
+*Aryan Vaghela
 
 Computer Engineering Student
 Built with ❤️ using LangGraph + Google Gemini.
