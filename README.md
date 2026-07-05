@@ -1,50 +1,151 @@
 # 🚀 ForgeFlow AI
 
-ForgeFlow AI is an autonomous multi-agent software engineering platform that transforms software ideas into structured development plans through collaboration between specialized AI agents.
+> Multi-Agent Software Engineering Platform powered by Google Gemini and LangGraph.
 
-Instead of relying on a single AI model, ForgeFlow AI simulates a real software engineering team where each agent has a dedicated responsibility such as planning, research, architecture design, code generation, review, and documentation.
+ForgeFlow AI is an AI-powered software engineering assistant that transforms a simple software idea into a complete project plan using multiple specialized AI agents.
 
-## Features
+Each AI agent has a dedicated responsibility such as planning, research, architecture design, implementation planning, review, and documentation generation.
 
-- 🤖 Multi-Agent Architecture
-- 🧠 Shared Memory & State
-- 🔄 LangGraph Orchestration
-- ✨ Google Gemini Integration
-- 🛠 Modular Agent Design
-- 📄 Automated Documentation
+---
 
-## Tech Stack
+# ✨ Features
+
+- 🧠 Planner Agent (Atlas)
+- 🔎 Research Agent (Scout)
+- 🏗 Architect Agent (Forge)
+- 💻 Coder Agent (Nova)
+- 🛡 Reviewer Agent (Sentinel)
+- 📝 Documentation Agent (Scribe)
+
+---
+
+# 🏗 Workflow
+
+```text
+User Idea
+     │
+     ▼
+🧠 Atlas
+     │
+     ▼
+🔎 Scout
+     │
+     ▼
+🏗 Forge
+     │
+     ▼
+💻 Nova
+     │
+     ▼
+🛡 Sentinel
+     │
+     ▼
+📝 Scribe
+     │
+     ▼
+Final ForgeFlow Report
+```
+
+---
+
+# 📂 Project Structure
+
+```
+ForgeFlow-AI
+│
+├── agents/
+│
+├── prompts/
+│
+├── graph/
+│
+├── reports/
+│
+├── utils/
+│
+├── tools/
+│
+├── main.py
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+# ⚙ Tech Stack
 
 - Python
-- Google Gemini
 - LangGraph
-- LangChain
-- Python Dotenv
+- Google Gemini API
+- Pydantic
+- dotenv
 
-## Architecture
+---
 
-```
-User
-   │
-   ▼
-Planner Agent
-   │
-   ▼
-Research Agent
-   │
-   ▼
-Architect Agent
-   │
-   ▼
-Coding Agent
-   │
-   ▼
-Reviewer Agent
-   │
-   ▼
-Final Project Report
+# 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/meet-chaudhari-12/ForgeFlow-AI.git
 ```
 
-## Project Status
+Install dependencies
 
-🚧 Currently under development as part of the Google × Kaggle 5-Day AI Agents Intensive Capstone Project.
+```bash
+pip install -r requirements.txt
+```
+
+Create a `.env` file
+
+```env
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Run the project
+
+```bash
+python main.py
+```
+
+---
+
+# 📊 Output
+
+ForgeFlow AI generates
+
+- Project Summary
+- Functional Requirements
+- Clarification Questions
+- Technology Research
+- Software Architecture
+- Implementation Plan
+- Project Review
+- Documentation
+- Markdown Report
+
+---
+
+# 📈 Future Improvements
+
+- JSON Output Parsing
+- Tool Calling
+- Memory Support
+- Streamlit Web Interface
+- PDF Report Export
+- GitHub Repository Generation
+- Multi-LLM Support
+- Parallel Agent Execution
+
+---
+
+# 👨‍💻 Author
+
+Meet Chaudhari
+Vimal Solanki
+Aryan Vaghela
+
+Computer Engineering Student
+Built with ❤️ using LangGraph + Google Gemini.

@@ -2,16 +2,20 @@ from tools.gemini import ask_gemini
 
 
 def load_prompt():
-    with open("prompts/coder.txt", "r", encoding="utf-8") as file:
+
+    with open("prompts/documentation.txt", "r", encoding="utf-8") as file:
         return file.read()
 
 
-def coder_agent(architecture):
+def documentation_agent(summary, architecture):
 
     prompt = load_prompt()
 
     full_prompt = f"""
 {prompt}
+
+Project Summary:
+{summary}
 
 Architecture:
 {architecture}
